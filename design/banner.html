@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>XtaxRich · GitHub profile cover</title>
+  <style>
+    @font-face {
+      font-family: Space Grotesk;
+      src: url(space-grotesk.woff2) format("woff2");
+      font-weight: 400 700;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body { color: #f3f4ec; font-family: Space Grotesk, system-ui, sans-serif; }
+    .cover { position: relative; isolation: isolate; overflow: hidden; width: 1280px; height: 400px; border-radius: 22px; background: #0a0b09; }
+    .cover::after { content: ""; position: absolute; z-index: 2; inset: 0; border: 1px solid #ffffff20; border-radius: inherit; pointer-events: none; }
+    .art { position: absolute; z-index: -2; width: 765px; height: auto; right: -5px; top: -62px; filter: saturate(1.08); mask-image: linear-gradient(90deg, transparent, #000 27%, #000 92%, transparent); }
+    .cover::before { content: ""; position: absolute; z-index: -1; inset: 0; background: linear-gradient(90deg, #0a0b09 16%, #0a0b09ed 38%, #0a0b092a 65%, transparent 80%); }
+    .copy { display: flex; flex-direction: column; justify-content: center; height: 100%; padding: 0 62px 8px; }
+    .identity { display: flex; align-items: center; gap: 13px; margin: 0 0 24px; font-weight: 700; font-size: 21px; line-height: 1; }
+    .identity-name { letter-spacing: -.045em; }
+    .identity-name strong { color: #caff53; }
+    .identity-role { margin-left: 5px; padding-left: 17px; border-left: 1px solid #5b6450; color: #bdc5af; font: 500 15px/1.2 ui-monospace, monospace; letter-spacing: .14em; }
+    .mark { position: relative; display: inline-block; width: 25px; height: 25px; border: 1px solid #b6e354; border-radius: 6px; background: #202916; }
+    .mark::before, .mark::after { content: ""; position: absolute; width: 10px; height: 2px; top: 10.5px; left: 6.5px; background: #caff53; border-radius: 2px; transform: rotate(-45deg); }
+    .mark::after { transform: rotate(45deg); }
+    h1 { margin: 0; font-size: 96px; line-height: .98; letter-spacing: -.079em; font-weight: 700; }
+    h1 span { display: block; color: #caff53; }
+  </style>
+</head>
+<body>
+  <div class="cover">
+    <img class="art" src="feedback-loop.png" alt="" width="1536" height="1024">
+    <div class="copy">
+      <p class="identity"><span class="mark" aria-hidden="true"></span><span class="identity-name">XtaxRich<strong>.</strong></span><span class="identity-role">AI PRODUCT MANAGER</span></p>
+      <h1>Making AI <span>work for real.</span></h1>
+    </div>
+  </div>
+</body>
+</html>
